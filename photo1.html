@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+  		
+  			<!--Start colapsed navbar-->
+  			<div class="navbar-header">
+  				<button type="button" 
+  				class="navbar-toggle collapsed"
+  				 data-toggle="collapse" 
+  				 data-target = "#main_navbar"
+  				  aria-expanded="false"> 
+  				open!</button>
+  			</div><!--/colapsed navbar-->
+
+  			<div class="collapse navbar-collapse"
+  			id="main_navbar">
+  				<!--Start un-colapsed navbar-->
+  				<ul class="nav navbar-nav">
+  					<li class="active"><a href="index.html">Home</a></li>
+  					<li><a href="albums.html">My albums</a></li>
+  					<li><a href="Photos.html">All photos</a></li>
+  			</ul>
+  		</div><!--/Start colapsed navbar-->
+  	</div>
+  </nav>
+
+  	<div class="container">
+  		<h1>Some graffiti I found</h1>
+
+  		<ol class = "breadcrumb">
+        <li><a href="index.html"> Home </a> </li>
+        <li><a href="albums.html">Albums</a></li>
+        <li><a href="photos.html">Graffity albums</a></li>
+        <li><a href="photo1.html">Graffity Picture</a></li>
+      </ol>
+
+  		<img class="single_photo" src="./images/img_1.jpg" alt="graffiti cover image">
+  	</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
